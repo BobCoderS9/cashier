@@ -1,0 +1,25 @@
+{
+    "name": "bobcoders9/cashier",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BobCoders9",
+            "email": "bobcoderss@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "symfony/options-resolver": "^4.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BobCoders9\\Cashier\\": "src/"
+        }
+    }
+}
